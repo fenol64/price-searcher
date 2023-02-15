@@ -7,7 +7,7 @@ const products = [
 
 const main = async () => {
     for (const product of products) {
-        await new AmazonController().getProductsByUrl(product);
+        // await new AmazonController().getProductsByUrl(product);
         await new MercadoLivreController().getProductsByUrl(product);
     }
 }

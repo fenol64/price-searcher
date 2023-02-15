@@ -43,6 +43,9 @@ class AmazonController {
 
             });
 
+            console.log("Products data from Amazon: " + products_data.length);
+            // console.log("Products data from Amazon: " + JSON.stringify(products_data));
+
             return products_data;
 
 
